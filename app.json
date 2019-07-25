@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "kamer-anaokulu-rn",
+    "slug": "kamerAnaokulu",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "twitter": {
+        "card": "summary",
+        "title": "Expo Web",
+        "description": "examples of using Expo in the browser",
+        "site": "https://expo.io",
+        "image": "./assets/images/icon.png",
+        "creator": "expo bacon"
+      },
+
+      "metatags": {
+        "author": "anthony kiedis",
+
+        "format-detection": "telephone=yes"
+      },
+
+      "minifyHTML": false
+    }
+  }
+}
